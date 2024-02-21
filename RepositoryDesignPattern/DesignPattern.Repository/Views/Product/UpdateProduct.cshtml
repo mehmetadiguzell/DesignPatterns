@@ -1,0 +1,26 @@
+﻿@model DesignPatern.EntityLayer.Concrete.Product
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<div class="container">
+    <br />
+    <form method="post">
+        <label>Ürün Adı</label>
+        <input type="text" asp-for="ProductName" class="form-control" />
+        <br />
+        <label>Ürün Fiyatı</label>
+        <input type="text" asp-for="Price" class="form-control" />
+        <br />
+        <label>Stok Sayısı</label>
+        <input type="text" asp-for="ProductStock" class="form-control" />
+        <br />
+        <label>Kategori</label>
+        @Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.v,new {@class="form-control"})
+        <br />
+        <button class="btn btn-info">Kaydet</button>
+        @Html.HiddenFor(x=>x.ProductID)
+    </form>
+</div>

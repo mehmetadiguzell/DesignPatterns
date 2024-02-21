@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPattern.Repository\\DesignPattern.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.BusinessLayer\\DesignPatern.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.BusinessLayer\\DesignPatern.BusinessLayer.csproj",
+        "projectName": "DesignPatern.BusinessLayer",
+        "projectPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.BusinessLayer\\DesignPatern.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\ydyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ydyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.DataAccessLayer\\DesignPatern.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.DataAccessLayer\\DesignPatern.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.EntityLayer\\DesignPatern.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.EntityLayer\\DesignPatern.EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.DataAccessLayer\\DesignPatern.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.DataAccessLayer\\DesignPatern.DataAccessLayer.csproj",
+        "projectName": "DesignPatern.DataAccessLayer",
+        "projectPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.DataAccessLayer\\DesignPatern.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\ydyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ydyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.EntityLayer\\DesignPatern.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.EntityLayer\\DesignPatern.EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.EntityLayer\\DesignPatern.EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.EntityLayer\\DesignPatern.EntityLayer.csproj",
+        "projectName": "DesignPatern.EntityLayer",
+        "projectPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.EntityLayer\\DesignPatern.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\ydyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.EntityLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ydyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPattern.Repository\\DesignPattern.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPattern.Repository\\DesignPattern.Repository.csproj",
+        "projectName": "DesignPattern.Repository",
+        "projectPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPattern.Repository\\DesignPattern.Repository.csproj",
+        "packagesPath": "C:\\Users\\ydyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPattern.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ydyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.BusinessLayer\\DesignPatern.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.BusinessLayer\\DesignPatern.BusinessLayer.csproj"
+              },
+              "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.DataAccessLayer\\DesignPatern.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.DataAccessLayer\\DesignPatern.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.EntityLayer\\DesignPatern.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\ydyo\\source\\repos\\DesignPatterns\\RepositoryDesignPattern\\DesignPatern.EntityLayer\\DesignPatern.EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
